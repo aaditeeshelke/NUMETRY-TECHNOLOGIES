@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Library System</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Catalog</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact</a>
+    
+    <div class="search-container">
+      <input type="text" placeholder="Search...">
+      <button type="button" id="search-icon">&#128269;</button>
+    </div>
+  </nav>
+  
+  <div class="login-container">
+    <h2>Login</h2>
+    <form id="loginForm" action="#" method="post">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Login</button>
+    </form>
+  </div>
+<section id="home">
+    <h2>Welcome to Our Library</h2>
+    <p>
+      Explore a world of knowledge with our vast collection of books. Whether you're into fiction, non-fiction,
+      or academic resources, our library has something for everyone.<br>
+      The man who does not read good books is no better than the man who can't.
+    </p>
+  
+    <h2>Featured Books</h2>
+    <div class="books">
+    
+    
+    </div>
+  </section>
+  
+ 
+  <section id="catalog">
+    <h2>Explore Our Catalog</h2>
+    
+    <div class="category">
+      <h3>Mystery</h3>
+      <div class="books">
+        <div class="book">
+          <img src="1.jpg" alt="The Da Vinci Code">
+          <h4>The Da Vinci Code</h4>
+          <p>Author: Dan Brown</p>
+        </div>
+        <div class="book">
+          <img src="2.jpg" alt="Gone Girl">
+          <h4>Gone Girl</h4>
+          <p>Author: Gillian Flynn</p>
+        </div>
+        <div class="book">
+          <img src="3.jpg" alt="Sherlock Holmes">
+          <h4>Sherlock Holmes</h4>
+          <p>Author: Arthur Conan Doyle</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="category">
+      <h3>Science Fiction</h3>
+      <div class="books">
+        <div class="book">
+          <img src="4.jpg" alt="Dune">
+          <h4>Dune</h4>
+          <p>Author: Frank Herbert</p>
+        </div>
+        <div class="book">
+          <img src="55.jpg" alt="Ender's Game">
+          <h4>Ender's Game</h4>
+          <p>Author: Orson Scott Card</p>
+        </div>
+        <div class="book">
+          <img src="6.jpg" alt="The Hunger Games">
+          <h4>The Hunger Games</h4>
+          <p>Author: Suzanne Collins</p>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+      Welcome to our library! We are dedicated to providing a diverse collection of books to cater to the reading interests
+      of our community. Our mission is to promote literacy, knowledge, and a love for reading.
+    </p>
+  
+    <h3>Our Vision</h3>
+    <p>
+      To be a leading hub for learning, discovery, and cultural enrichment through our extensive library resources.
+    </p>
+  
+    <h3>Our Team</h3>
+    <p>
+      We have a passionate team of librarians and staff committed to assisting you in finding the perfect book and creating
+      a welcoming environment for all library visitors.
+    </p>
+  
+    <h3>Visit Us</h3>
+    <p>
+      Feel free to visit our library and explore the world of literature. We are located at [Your Library Address].
+    </p>
+  
+    <h3>Contact Us</h3>
+    <p>
+      If you have any questions or suggestions, please don't hesitate to contact us at [Your Contact Information].
+    </p>
+  </section>
+ 
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>
+      We value your feedback and are here to assist you. Feel free to reach out to us with any questions or concerns.
+    </p>
+  
+    <div class="contact-info">
+      <p><strong>Email:</strong> info@library.com</p>
+      <p><strong>Phone:</strong> +123 456 7890</p>
+      <p><strong>Address:</strong> 123 Library Street, Cityville, Country</p>
+    </div>
+  
+    <div class="contact-form">
+      <h3>Send us a Message</h3>
+      <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+  
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+  
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+  
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+  
+
+  
+
+  <footer>
+    <p>&copy; 2024 Library System. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
