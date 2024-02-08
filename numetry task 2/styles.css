@@ -1,0 +1,84 @@
+/* Custom styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: tomato;
+}
+
+nav a {
+    color: white !important;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('school-img.jpeg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 267px 0;
+    opacity: 0.8;
+    
+}
+
+/* Content Section */
+.content-section {
+    padding: 50px 0;
+}
+
+/* Responsive Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1 {
+    font-size: 3.5rem;
+    color: black;
+    font-weight: 502;
+  }
+  .card-img-top {
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+   
+}
+.card {
+    height: 400px; /* Adjust the height as needed */
+    margin: 20px 0;
+}
+
+/* Set flex direction to column for card content */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+/* Add background image for the Admission section */
+#admission {
+    background: url('admission-img-1.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    opacity: 0.9;
+}
+/* Footer Section */
+.footer-section {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+}
+
+.hero-section p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+/* Add your other styles as needed */
+
+
+
+
+
+
+
