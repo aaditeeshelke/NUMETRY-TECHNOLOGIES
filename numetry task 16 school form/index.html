@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart School Form</title>
+  <link rel="stylesheet" href="styles.css">
+  
+  
+</head>
+<body>
+
+  <section class="wrapper">
+    <div class="head1">
+     <div class="header">
+        <div class="box1">
+            <h2 class="text-success">SMART SCHOOL</h2>
+        </div>
+
+        <div class="box1">
+            <button class="btn btn-danger btn-sm rounded-pill">Under Implementation Track Progress</button>
+        </div>
+
+        <div class="box1">
+            <button class="btn btn-sm rounded-pill btn-primary">Get Help</button>
+        </div>
+
+        <div class="box1">
+            <p>AY: 2023-2024</p>
+        </div>
+
+        <div class="box1">
+            <img src="home.png" alt="" height="20">
+            <img src="bell.png" alt="" height="20">
+            <img src="search.png" alt="" height="20">
+            <img src="visualization.png" alt="" height="20">
+            
+        </div>
+     </div>
+
+        <div class="header1">
+            <div class="box2">
+                <a class="nav-link" href="#">Staff Details</a>
+            </div>
+
+            <div class="box2">
+                <a class="nav-link" href="#">Staff Attendance</a>
+            </div>
+                  
+            <div class="box2">
+                <a class="nav-link" href="#">Biometric Attendance</a>
+            </div>
+                  
+            <div class="box2">
+                <a class="nav-link" href="#">Feedback</a>
+            </div>
+                  
+            <div class="box2">
+                <a class="nav-link" href="#">Staff Leaves</a>
+            </div>
+                    
+            <div class="box2">
+                <a class="nav-link" href="#">Staff</a>
+            </div>
+                    
+            <div class="box2">
+                <a class="nav-link" href="#">Report</a>
+            </div>
+        </div>
+
+</section>
+
+<h2 class="cold">Branch : shahen junior collage </h2>
+
+<section id="staff-details">
+    <h2> Staff details</h2>
+   
+    <form>
+      <div class="flex-container">
+        <div class="form-group quarter-width">
+          <label for="employment-status">Employment Status:</label>
+          <select id="employment-status">
+            <option value="Temporary">Temporary</option>
+            <option value="full-time">Full Time</option>
+            <option value="part-time">Part Time</option>
+          </select>
+        </div>
+
+        <div class="form-group quarter-width">
+          <label>Staff Type:</label>
+          <div class="radio-group">
+            <input type="radio" id="teaching" name="staff-type" value="teaching">
+            <label for="teaching" class="radio-label">Teaching</label>
+
+            <input type="radio" id="non-teaching" name="staff-type" value="non-teaching">
+            <label for="non-teaching" class="radio-label">Non-Teaching</label>
+
+            <input type="radio" id="transport" name="staff-type" value="transport">
+            <label for="transport" class="radio-label">Transport</label>
+          </div>
+        </div>
+
+        <div class="form-group quarter-width">
+          <label for="staff-department">Staff Department:</label>
+          <select id="staff-department">
+            <option value="Select department">Select department</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Computer">Computer</option>
+            <option value="IT">IT</option>
+          </select>
+        </div>
+
+        <div class="form-group quarter-width">
+          <label for="Employment-catagory">Employment Category:</label>
+          <select id="Employment-catagory">
+            <option value="select catgory">select catgory"</option>
+            
+          </select>
+        </div>
+      </div>
+
+      <div class="flex-container">
+        <div class="form-group quarter-width">
+          <label for="Designation">Designation</label>
+          <select id="Designation">
+            <option value="Select department">Select department</option>
+            
+          </select>
+        </div>
+        <div class="form-group quarter-width">
+            <label for="Qualification type">Qualification type:</label>
+            <select id="Qualification type">
+              <option value="Select Qualification">Select Qualification</option>
+            </select>
+          </div>
+  
+          <div class="form-group quarter-width">
+            <label for="Education qualification">Education qualification:</label>
+            <select id="Education qualification">
+              <option value="Select Qualification">Select Qualification</option> 
+            </select>
+          </div>
+          <div class="form-group quarter-width">
+            <label for="Access level">Access level:</label>
+            <select id="Access level">
+              <option value="select Access level">select Access level</option> 
+            </select>
+          </div>
+        </div>
+        
+        </div>
+
+
+        <div class="flex-container">
+            <div class="form-group quarter-width">
+              <label for="Trained as">Trained as:</label>
+              <select id="Trained as">
+                <option value="select level">select level</option>
+              </select>
+            </div>
+            <div class="form-group quarter-width">
+                <label>CTET qualified</label>
+                <div class="radio-group">
+                  <input type="radio" id="YES" name="CTET qualified" value="YES">
+                  <label for="yes" class="radio-label">YES</label>
+      
+                  <input type="radio" id="NO" name="CTET qualified" value="NO">
+                  <label for="NO" class="radio-label">NO</label>
+      
+                
+                </div>
+            </div>
+        </div>
+
+        
+    </form>
+  </section>
+  <section id="Personal-details">
+    <h2> Personal-details</h2>
+   
+    <form>
+        <div class="flex-container">
+            <div class="form-group quarter-width">
+              <label for="first-name">First Name:</label>
+              <input type="text" id="first-name" name="first-name">
+            </div>
+      
+            <div class="form-group quarter-width">
+              <label for="middle-name">Middle Name:</label>
+              <input type="text" id="middle-name" name="middle-name">
+            </div>
+      
+            <div class="form-group quarter-width">
+              <label for="last-name">Last Name:</label>
+              <input type="text" id="last-name" name="last-name">
+            </div>
+
+            <div class="form-group quarter-width">
+                <label for="mob-no">Mobile Number:</label>
+                <input type="tel" id="mob-no" name="mob-no">
+            </div>
+        </div>
+
+        
+
+      <div class="flex-container">
+        <div class="form-group quarter-width">
+            <label for="emergency-contact-no">Emergency Contact Number:</label>
+            <input type="tel" id="emergency-contact-no" name="emergency-contact-no">
+          </div>
+    
+          <div class="form-group quarter-width">
+            <label>Gender:</label>
+            <div class="radio-group">
+                <input type="radio" id="Female" name="Gender" value="Female">
+                <label for="Female" class="radio-label">Female</label>
+    
+                <input type="radio" id="Male" name="Gender" value="Male">
+                <label for="Male" class="radio-label">Male</label>
+    
+                <input type="radio" id="Other" name="Gender" value="Other">
+                <label for="Other" class="radio-label">Other</label>
+              </div>
+          </div>
+    
+          <div class="form-group quarter-width">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+          </div>
+
+          <div class="form-group quarter-width">
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email">
+          </div>
+      </div>
+
+        <div class="flex-container">
+            <div class="form-group quarter-width">
+                <label for="permanent-address">Permanent Address:</label>
+                <textarea id="permanent-address" name="permanent-address"></textarea>
+              </div>
+        
+              <div class="form-group quarter-width">
+                <label for="corresponding-address">Corresponding Address:</label>
+                <textarea id="corresponding-address" name="corresponding-address"></textarea>
+              </div>
+        
+              <div class="form-group quarter-width">
+                <label for="Religion">Religion:</label>
+                <select id="Religion">
+                  <option value="HINDU">HINDU</option> 
+                </select>
+              </div>
+    
+             
+          </div>
+
+        
+    </form>
+  </section>
+  <section id="Other-details">
+    <h2> Other-details</h2>
+   
+    <form>
+        <div class="flex-container">
+            <div class="form-group quarter-width">
+                <label for="adhar-no">Adhar No:</label>
+                <input type="text" id="adhar-no" name="adhar-no">
+            </div>
+      
+            <div class="form-group quarter-width">
+                <label for="pan-no">Pan No:</label>
+                <input type="text" id="pan-no" name="pan-no">
+            </div>
+      
+            <div class="form-group quarter-width">
+                <label for="date-of-joining">Date of Joining:</label>
+                <input type="date" id="date-of-joining" name="date-of-joining">
+            </div>
+            <div class="form-group quarter-width">
+                <label for="Staff refernce code">staff refernce code:</label>
+                <input type="text" id="staff refernce code" name="staff refernce code">
+            </div>
+           
+        </div>
+
+        
+
+      <div class="flex-container">
+        <div class="form-group quarter-width">
+            <label>salary pay type :</label>
+            <div class="radio-group">
+                <input type="radio" id="Consolidiate" name="salary pay type" value="Consolidiate">
+                <label for="Consolidiate" class="radio-label">Consolidiate</label>
+    
+                <input type="radio" id="Pay" name="salary pay type" value="Pay">
+                <label for="Pay" class="radio-label">Pay</label>
+    
+                <input type="radio" id="Other" name="salary pay type" value="Other">
+                <label for="Other" class="radio-label">Other</label>
+              </div>
+        </div>
+        <div class="form-group quarter-width">
+            <label for="government-id">Government ID:</label>
+            <input type="text" id="government-id" name="government-id">
+          </div>
+    
+          <div class="form-group quarter-width">
+            <label for="Citzenship">Citzenship:</label>
+            <select id="Citzenship" name="Citzenship">
+              <option value="Indian">Indian</option>
+             
+             </select>
+          </div>
+    
+          
+      </div>
+
+      <div class="form-group">
+        <button type="button" onclick="saveAndContinue()">Save and Continue</button>
+      </div>
+  
+        
+    </form>
+  </section>
+  
+
+</body>
+</html>
