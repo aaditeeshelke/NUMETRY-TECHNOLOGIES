@@ -23,3 +23,14 @@
 
 11] create a medical health care provider website using HTML CSS REACT BOOTSRAP.
 
+12] images styling using css
+
+13] study bootstrap and apply on project like sliders pop ups modals etc
+
+14] Study and implement on CSS properties: Flex properties Grid properties Media query Positions
+
+15] Study and Implement these two concepts Callback Functions and Promises.
+
+16] creted a school form using html and css
+
+17] Create responsive dashboard using HTML CSS or React. And add previous task in the dashboard (Form).
