@@ -23,3 +23,5 @@
 
 11] create a medical health care provider website using HTML CSS REACT BOOTSRAP.
 
+12] images styling using css
+
