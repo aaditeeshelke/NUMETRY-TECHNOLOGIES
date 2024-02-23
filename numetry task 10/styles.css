@@ -1,0 +1,247 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 30px;
+}
+
+header {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+header .navigation-buttons {
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header button {
+    background-color: black;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+header input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    margin-left: 63px;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+nav {
+    background-color:white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo i {
+    font-size: 50px;
+   
+    margin-right: 10px;
+}
+
+nav .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+    font-weight: bold;
+    width: 200px;
+    border: #333 solid 2px;
+}
+
+nav input[type="text"] {
+    padding: 1px;
+  margin-right: 6px;
+  border: none;
+  width: 183px;
+  height: 35px;
+  border: #333 solid 2px;
+  border-radius: 16px;
+
+}
+
+.white-card {
+    background-color:coral;
+    height: 400px;
+    border: #333 solid 2px;
+    text-align: center;
+}
+
+.txt {
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    
+    border-top: 0px;
+    border-bottom: 0px;
+
+}
+
+.subtxt {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 300px;
+    border: #333 solid 2px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.Aadditional{
+    background-color: cornsilk;
+    height: 600px;
+    border: #333 solid 2px;
+
+}
+
+.Aadditional1{
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 398px;
+    height: 50px;
+    border: #333 solid 2px;
+    margin-left: 36%;
+    margin-right: 30%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.IMG {
+    background-color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 220px;
+    border-top: 0px;
+    border-bottom: 0px;
+
+}
+
+.subimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    border: #333 solid 2px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.txtforimg {
+    background-color:cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    border-top: 0px;
+    border-bottom: 0px;
+
+}
+
+.subtxtforimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    border: #333 solid 2px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 50px;
+}
+
+.footer {
+    height: 400px;
+    border: #333 solid 2px;
+    border-top: 0px;
+    background-color:white;
+}
+
+.subfot1 {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+#inp {
+    height: 50px;
+    width: 300px;
+    margin-left: 10px;
+}
+
+#bt {
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 5px;
+    color: red;
+    font-weight: bold;
+  }
+
+.navigationtxt {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  width: 178px;
+  border: #333 solid 2px;
+  margin-left: 61px;
+  margin-right: 18px;
+  margin-top: 50px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color:white;
+    text-decoration: none;
+}
