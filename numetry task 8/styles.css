@@ -1,0 +1,247 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Style the side menu */
+.side-menu {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.brand-name h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-menu li {
+    font-size: 24px;
+    padding: 10px 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    transition: background 0.3s ease; /* Add transition for smooth effect */
+    align-items: center;
+}
+
+.side-menu li:hover,
+.side-menu li.clicked {
+    background: #f05462;
+    color: white;
+    padding: 10px 38px;
+    border: 2px solid white;
+}
+
+.side-menu li img {
+    margin-right: 10px;
+}
+
+/* Style the container */
+.container {
+    padding: 20px;
+}
+
+/* Style the header */
+.header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;
+}
+
+.search input {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.search button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user img, .user div img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Style the cards section */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.55);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+/* Style the content-2 section */
+.content-2 {
+    display: flex;
+    padding: 32px;
+   
+}
+
+.featured-articles, .new-students {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.featured-articles h2, .new-students h2 {
+    margin-bottom: 15px;
+}
+
+.article {
+    margin-bottom: 20px;
+}
+
+.article img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+/* Style the new students table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+thead {
+    background-color: #333;
+    color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .content-2 {
+        flex-direction: column;
+    }
+}
+
+
+/* Style the side menu */
+
+
+
+
+
+
+.side-menu li img {
+    margin-right: 10px;
+    width: 20px; /* Adjust the width of the icons */
+    height: 20px; /* Adjust the height of the icons */
+}
+
+/* Style the container */
+.container .content .content-2 .recent-payments table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.container .content .content-2 .recent-payments th,
+.container .content .content-2 .recent-payments td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.container .content .content-2 .recent-payments th {
+    background-color: #f05462;
+    color: white;
+}
+
+.container .content .content-2 .recent-payments tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+.container .header .nav .user img {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+}
+
+.container .header .nav .notification-icon img {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+}
+.container .content .content-2 .dashboard-widget {
+    margin-top: 20px;
+    padding: 30px; /* Adjust the padding to increase the size */
+    background-color: #f1f1f1;
+    margin-left: 188px;
+}
+
+.container .content .content-2 .dashboard-widget h2 {
+    color: #444;
+}
+
+.container .content .content-2 .dashboard-widget .statistic {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Adjust the margin to increase the spacing between statistics */
+}
+
+.container .content .content-2 .dashboard-widget .statistic span {
+    font-weight: bold;
+}
